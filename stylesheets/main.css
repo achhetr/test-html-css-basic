@@ -1,11 +1,108 @@
-.signin {
-  width: 100vw;
-  height: 90vh;
-  text-align: center;
-  padding: 80px;
+* {
+  box-sizing: border-box;
 }
 
-.signin-form {
-  width: 40vw;
-  background-color: greenyellow;
-} 
+body {
+  background-color: rgb(0, 255, 183);
+}
+
+/* element */
+
+/* emails */
+
+h1 {
+  color: red;
+}
+
+.signin-header {
+  background-color: aliceblue;
+}
+
+#main-container {
+  background-color: bisque;
+  height: 100vh;
+}
+
+
+h1 {
+  color: blue;
+}
+
+h1 {
+  background-color: blueviolet;
+  border: 16px solid black;
+}
+
+
+/* .important-header {
+  color: green;
+} */
+
+/* border-box */
+/* content.. */
+
+/* importance of each selector */
+/* 
+1 - id -> important-heading first-child
+2 - classes -> 
+3 - general element selector
+*/
+
+
+/* importance of css styles */
+
+/* initialized css */
+
+/* flex-box */
+
+.footer-div {
+  background-color: red;
+  width: 100px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* flex: 1 */
+
+/* flex */
+/* float: left */
+
+/* inline, inline-block and block */
+/* whether have childrens or not */
+
+/* flex */
+/* about the children */
+
+/* mobile first develop any website */
+
+/* screens we first is the best */
+
+/* @media screen and (min-width: 600px) {
+  h1 {
+    color: yellow;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .footer-div {
+    width: 80vw;
+  }
+} */
+/* vw vh */
+
+/* min-width max-width min-height max-height */
+/* mobile first approach */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1 1 2 3;
+}
+
+/* justify-content */
+/* align-items */
