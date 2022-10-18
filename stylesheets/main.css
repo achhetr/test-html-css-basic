@@ -1,0 +1,11 @@
+.signin {
+  width: 100vw;
+  height: 90vh;
+  text-align: center;
+  padding: 80px;
+}
+
+.signin-form {
+  width: 40vw;
+  background-color: aliceblue;
+} 
